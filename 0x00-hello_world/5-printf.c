@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return type: 0
+ * Return: 0
  *
  */
 
