@@ -3,9 +3,7 @@
 /** 
  * main function
  * return o
- *
- * 
- **/
+ */
 
 int main(void)
 {
