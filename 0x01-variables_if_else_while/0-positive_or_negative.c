@@ -4,7 +4,7 @@
 
 /*betty style doc for function main goes there */
 /**
-* main - check number 
+* main - check number
 *
 * Return: return 0
 *
