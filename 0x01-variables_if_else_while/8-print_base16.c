@@ -8,11 +8,17 @@
 
 int main(void)
 {
-	int a;
+	unsigned char a = '0';
+	int i;
 
-	for (a = 0; a < 16; a++)
+	for (i = 0; i < 10; i++)
 		putchar(a);
-		if (a == 10)
-			putchar('0' + a);
-	putchar('\n')
+		a++;
+	a = '1'
+
+	for (i = 0; i < 6; i++)
+		putchar('0' + a);
+		a++;
+
+	putchar('\n');
 	return (0);
