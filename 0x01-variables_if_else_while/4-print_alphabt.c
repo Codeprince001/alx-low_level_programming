@@ -2,7 +2,7 @@
 
 /**
 *
-* main - return all aphabel except q and e
+* main - entry point
 *
 * Return: always 0
 *
