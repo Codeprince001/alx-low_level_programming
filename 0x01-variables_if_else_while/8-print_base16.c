@@ -8,19 +8,20 @@
 
 int main(void)
 {
-	unsigned char a = '0';
 	int i;
+	int j;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i <= 15; i++)
 	{
-		putchar(a);
-		a++;
-	}
-	a = '1';
-	for (i = 0; i < 6; i++)
-	}
-		putchar('0' + a);
-		a++;
+		j = i % 16;
+		if (r < 10)
+		{
+			putchar(j + '0');
+		}
+		else
+		{
+			putchar(r + 87);
+		}
 	}
 	putchar('\n');
 	return (0);
