@@ -14,7 +14,7 @@ int main(void)
 	for (i = 0; i <= 15; i++)
 	{
 		j = i % 16;
-		if (r < 10)
+		if (j < 10)
 		{
 			putchar(j + '0');
 		}
