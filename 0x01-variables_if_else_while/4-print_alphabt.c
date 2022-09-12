@@ -2,14 +2,14 @@
 
 /**
 *
-* main - Print alphabet exempting q and e
+* main - return all aphabel except q and e
 *
 * Return: always 0
+*
 */
 
 int main(void)
-{
-	char a;
+{	char a;
 
 	for (a = 'a'; a <= 'z' ; a++)
 	{
