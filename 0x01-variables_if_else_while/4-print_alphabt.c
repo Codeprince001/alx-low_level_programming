@@ -11,7 +11,7 @@ int main(void)
 {
 	char a;
 
-	for(a='a;,a <='z';a++)
+	for(a = 'a'; a <= 'z' ; a++)
 	{
 		if (a == 'q' || a == 'e')
 		{
@@ -19,6 +19,6 @@ int main(void)
 		}
 		putchar(a);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
