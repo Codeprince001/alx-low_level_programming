@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-*
-* print_sign - main function call, prints positive, negative or zero
+* print_sign - main function
 *
 * @n: parameter
 *
@@ -15,7 +14,7 @@ int print_sign(int n)
 	{
 		_putchar('+');
 		return (1);
-	
+
 	}
 	else if (n == 0)
 	{
