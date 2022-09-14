@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int counter = 2;
+	int i = 2;
 
 	float a = 1;
 	float b = a + 1;
@@ -16,14 +16,17 @@ int main(void)
 
 	printf("%.0f, ", a);
 	printf("%.0f, ", b);
-	while (counter < 98)
+
+	while (i < 98)
 	{
-		counter++;
+		i++;
 		printf("%.0f", c);
+
 		a = b;
 		b = c;
 		c = a + b;
-		if (counter < 98)
+
+		if (i < 98)
 		{
 			printf(", ");
 		}
